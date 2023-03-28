@@ -5,5 +5,3 @@ for (const listElement of listLength) {
     console.log(`Category: ${listElement.children[0].innerText}`)
     console.log(`Elements: ${listElement.children[1].children.length}`)
 };
-
-// test deploy
