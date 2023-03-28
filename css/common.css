@@ -22,3 +22,15 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  display: flex;
+  margin: 20px auto;
+}
+
+.gallery__image {
+  border: 2px solid black;
+  -webkit-box-shadow: 1px 16px 24px 0px rgba(68, 92, 198, 1);
+  -moz-box-shadow: 1px 16px 24px 0px rgba(68, 92, 198, 1);
+  box-shadow: 1px 16px 24px 0px rgba(68, 92, 198, 1);
+}
