@@ -25,12 +25,17 @@ button {
 
 .gallery {
   display: flex;
-  margin: 20px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  gap: 30px;
 }
 
 .gallery__image {
-  border: 2px solid black;
-  -webkit-box-shadow: 1px 16px 24px 0px rgba(68, 92, 198, 1);
-  -moz-box-shadow: 1px 16px 24px 0px rgba(68, 92, 198, 1);
-  box-shadow: 1px 16px 24px 0px rgba(68, 92, 198, 1);
-}
+  height: 300px;
+  width: 600px;
+  object-fit: cover;
+  border: 10px solid rgb(150, 150, 150);
+  box-shadow: 1px 16px 43px -24px rgba(0, 0, 0, 1);}
